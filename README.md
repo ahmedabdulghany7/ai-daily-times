@@ -38,6 +38,7 @@ Most web projects are **one single HTML file**: no install, no build step, works
 
 | Project | What it is | Live | Folder |
 |---|---|---|---|
+| 👔 **Filo Nero** | 3D virtual fitting room for a fictional menswear brand | [Demo](https://ahmedabdulghany7.github.io/ai-daily-times/web/fitting-room/) | [`web/fitting-room`](web/fitting-room) |
 | ☕ **Extra Shot** | Fictional coffee brand: Before 2D vs After 3D | [Compare](https://ahmedabdulghany7.github.io/ai-daily-times/web/coffee/) | [`web/coffee`](web/coffee) |
 | ✨ **Particle Hero** | Particles swarm into your brand name | [Demo](https://ahmedabdulghany7.github.io/ai-daily-times/web/hero/) | [`web/hero`](web/hero) |
 
@@ -52,6 +53,16 @@ Most web projects are **one single HTML file**: no install, no build step, works
 Coming soon: local AI setups, model tests and tools you can run on your own machine. See [`ai`](ai).
 
 ---
+
+### 👔 Filo Nero: 3D Virtual Fitting Room
+
+![Filo Nero fitting room](assets/fitting-room-preview.jpg)
+
+- Click a piece on the rail and it flies onto the 3D mannequin and tailors itself on, top to bottom
+- 9 pieces: tee, polo, oxford shirt, trousers, shorts, blazer, chore jacket, loafers, sneakers
+- Live color, fabric (cotton, linen, wool, denim), size S to XL and fit (slim, regular, oversized)
+- 4 looks in one click, Shuffle, outfit total, bag drawer
+- **[Recording mode](https://ahmedabdulghany7.github.io/ai-daily-times/web/fitting-room/?record=1):** a 15 second showcase in a 9:16 frame
 
 ### ☕ Extra Shot: Before 2D vs After 3D
 
@@ -87,6 +98,7 @@ A phone-friendly PDF with one copy-paste prompt for each law, plus a bonus maste
 ai-daily-times/
 ├── index.html                 live gallery
 ├── web/
+│   ├── fitting-room/index.html   3D fitting room
 │   ├── coffee/
 │   │   ├── index.html         Before 2D vs After 3D
 │   │   ├── before-2d.html
@@ -114,4 +126,4 @@ If something here helped you, a ⭐ on the repo means a lot.
 ## License
 
 © Ahmed Abdulghany (@ai.dailytimes). Free for personal and commercial use. Credit is appreciated, not required.
-Extra Shot is a fictional brand. three.js is included under its MIT license.
+Extra Shot and Filo Nero are fictional brands. three.js is included under its MIT license.
